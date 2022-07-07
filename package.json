@@ -1,0 +1,16 @@
+{
+  "name": "4diz",
+  "version": "1.0.0",
+  "description": "4Diz Group Company Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./src/input.css -o ./assets/css/tailwind.css",
+    "watch": "tailwind -i ./src/input.css -o ./assets/css/tailwind.css --watch"
+ 
+  },
+  "author": "Dinton Harold Ainemukama",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
